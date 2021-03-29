@@ -1,0 +1,24 @@
+VAR
+ int i,maxim;
+ intarray = int array[5];
+ intarray numb;
+ 
+BEGIN
+ numb[1] = 3;
+ numb[2] = 12;
+ numb[3] = 7;
+ numb[4] = 19;
+ numb[5] = 20;
+ i = 2;
+ maxim = numb[1];
+ while(i <=5)
+ {
+  if( maxim < numb[i])
+  {
+   maxim = numb[i];
+  }
+  i=i+1;
+
+ }
+ print(maxim);
+END.
